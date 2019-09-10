@@ -1,0 +1,15 @@
+更改前（缺少关键字void  “ Java后缺少‘ ” ’ ”）：
+
+public class ShowSyntaxErrors {
+	public static main(String[] args) {
+		System.out.println("Welcome to Java);
+	}
+}
+
+更改后：
+
+public class ShowSyntaxErrors {
+	public static void main(String[] args) {
+		System.out.println("Welcome to Java");
+	}
+}
