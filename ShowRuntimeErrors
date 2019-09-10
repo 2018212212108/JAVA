@@ -1,0 +1,17 @@
+更改前：（0作为除数）
+
+public class ShowRuntimeErrors {
+	public static void main(String[] args) {
+		System.out.println(1 / 0);
+	}
+}
+
+更改后：
+
+public class ShowRuntimeErrors {
+	public static void main(String[] args) {
+		System.out.println(1 / 1);
+	}
+}
+
+运行结果为：1
